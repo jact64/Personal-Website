@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Sudoku Solver",
+    "description": "A simple program to solve sudokus loaded from a txt file, surprisingly a lot more complex than initially expected.",
+    "languages": [
+      "VB"
+    ],
+    "type": "Personal Project",
+    "year": 2014,
+    "link": ""
+  },
+  {
+    "name": "Mechanics Simulator",
+    "description": "When doing my Physics AS I very much enjoyed the mechanics module and so wrote a program which simulated gravity and collisions in 2D, both bouncy ball gravity and also orbit planet gravity with different masses.",
+    "languages": [
+      "C# XNA"
+    ],
+    "type": "Personal Project",
+    "year": 2014,
+    "link": ""
+  },
+  {
+    "name": "Snippet Grabber",
+    "description": "A program I wrote on a team during my work experience at Hallnet which would grab snippets from documents to be reused to help employees when writing documents for clients.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "type": "Professional Project",
+    "year": 2015,
+    "link": ""
+  },
+  {
+    "name": "Work Manager",
+    "description": "A little program my friend asked me to make them which would keep track of work and tell you what to do so that you don't become overwhelmed by how much work is left to do.",
+    "languages": [
+      "Java"
+    ],
+    "type": "Personal Project",
+    "year": 2015,
+    "link": ""
+  },
+  {
+    "name": "My Previous Website",
+    "description": "A website I wrote for a blog I wrote whilst I was a Microsoft Student Partner, the blog can be viewed <a href=\"https://blogs.msdn.microsoft.com/uk_faculty_connection/2017/07/19/how-to-set-up-and-host-your-own-website-with-an-sql-server-on-azure-for-students/\">here</a>",
+    "languages": [
+      "HTML",
+      "PHP",
+      "SQL",
+      "CSS used is bootstrap"
+    ],
+    "type": "Personal/Professional Project",
+    "year": 2016,
+    "link": "https://github.com/jtavernor/MyWebsite"
+  },
+  {
+    "name": "Topics Project",
+    "description": "As part of Computing first year we were asked to ressearch a topic and write an informative website on it and present it as a group, I was the leader of my group which I found taught me lots of useful skills. We achieved an award for one of the most outstanding projects in Computing first year.",
+    "languages": [
+      "HTML",
+      "CSS"
+    ],
+    "type": "University Project",
+    "year": 2017,
+    "link": ""
+  },
+  {
+    "name": "C Project",
+    "description": "For the final term of first year we were tasked with writing and emulator and assembler for arm11 code in C. My group were awarded high grades for this project but I am unfortunately unable to share the code.",
+    "languages": [
+      "C"
+    ],
+    "type": "University Project",
+    "year": 2017,
+    "link": ""
+  },
+  {
+    "name": "Heatwave",
+    "description": "This was an android app we made during the Imperial College hackathon which would take a search term and use twitter to colour cities based on if people tweeted positively or negatively about the given search term in that area. I worked on the front end android application",
+    "languages": [
+      "Java"
+    ],
+    "type": "Hackathon",
+    "year": 2017,
+    "link": "https://gitlab.doc.ic.ac.uk/cnl16/ICHack"
+  },
+  {
+    "name": "My New Website",
+    "description": "The website you are currently browsing!",
+    "languages": [
+      "HTML",
+      "TypeScript",
+      "Angular 6",
+      "CSS",
+      "JSON"
+    ],
+    "type": "Personal Project",
+    "year": 2018,
+    "link": "https://github.com/jtavernor/Website"
+  }
+]

@@ -1,0 +1,27 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<mat-sidenav-container class="mat-typography {{this.theme()}}" autosize>
+  <mat-sidenav #sidenav mode="side">
+    <nav *ngFor="let link of links" (click)="sidenav.toggle()">
+      <a mat-button color="primary" routerLink="{{link.link}}">{{link.text}}</a>
+    </nav>
+    <mat-radio-group class="navbar-radio-group navbar-bottom" [(ngModel)]="selectedTheme" (change)="this.updateOverlayContainer()">
+      <mat-radio-button class="navbar-radio-button" *ngFor="let theme of themes" [value]="theme">
+        {{theme.name}}
+      </mat-radio-button>
+    </mat-radio-group>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <div>
+        <button mat-icon-button type="button" mat-button (click)="sidenav.toggle()">
+          <mat-icon aria-label="Toggle sidenav">menu</mat-icon>
+        </button>
+      </div>
+      <span> {{ title }} </span>
+    </mat-toolbar>
+    <div class="addPadding">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

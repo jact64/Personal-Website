@@ -1,0 +1,13 @@
+@mixin mat-drawer-theme($theme) {
+  $backgroundobj: map-get($theme, background);
+  $foregroundobj: map-get($theme, foreground);
+
+  $primary: map-get($theme, primary);
+  $background: mat-color($backgroundobj, background) !default;
+  $foreground: mat-color($foregroundobj, text) !default;
+
+  .mat-drawer-content {
+    background-color: $background;
+    color: $foreground;
+  }
+}

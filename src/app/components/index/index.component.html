@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center; padding-top: 2%">
+  <h1>
+    {{ title }}!
+  </h1>
+  <mat-grid-list [cols]="this.breakpoint" [rowHeight]="this.rowHeight" (window:resize)="onResize($event)">
+    <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows">
+      <a routerLink="{{tile.link}}">
+        <mat-card>
+          <img mat-card-image src="{{tile.imgSrc}}" alt="{{tile.imgAlt}}">
+          <mat-card-content>
+            <p>
+              {{tile.content}}
+            </p>
+          </mat-card-content>
+          <mat-card-actions *ngIf="tile.displayActions">
+            <button mat-button *ngFor="let action of tile.actions">
+              {{action.text}}
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

@@ -1,0 +1,31 @@
+a {
+  width: 100%;
+  color: white;
+}
+
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  min-height: 100%;
+}
+
+mat-sidenav {
+  min-width: 15%;
+}
+
+.addPadding {
+  padding: 2%;
+}
+
+.navbar-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.navbar-radio-button {
+  margin: 5px;
+}
+
+.navbar-bottom {
+  position: absolute;
+  bottom: 1%;
+}
