@@ -1,5 +1,5 @@
 # PersonalWebsite
-This is the code for my current website which is currently deployed at `https://www.doc.ic.ac.uk/~jat415/`.
+This is the code for my current website which is currently deployed at https://www.doc.ic.ac.uk/~jat415/.
 
 ## Installation
 First install the angular cli with `sudo npm install -g @angular/cli`
